@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
-import google.generativeai as genai
+from google import genai
 
 
 
