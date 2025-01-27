@@ -2,7 +2,8 @@ import streamlit as st
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
-import google_genai as genai
+import google.generativeai as genai
+
 
 
 # Set up Google GenAI Client for Gemini 2.0
