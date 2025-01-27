@@ -7,6 +7,7 @@ import google.generativeai as genai
 
 
 # Set up Google GenAI Client for Gemini 2.0
+
 client = genai.Client(api_key="AIzaSyCGWgWOm8Z5Btgm6Jat4C0MQKeTQm-I3C4")
 
 # Initialize the embedding model
